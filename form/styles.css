@@ -1,0 +1,29 @@
+.titulo
+{
+    text-align: center;
+    font-size: 80px;
+    color: #F5F5F5;
+}
+
+.border
+{
+    border-width: medium;
+    border-color: #000000;
+    border-style: solid;
+    background-color: #191970;
+}
+
+.formstyle
+{
+    background-color: #FFFFF0;
+}
+
+.space
+{
+    padding: 10px;
+}
+
+p
+{
+    padding-top:10px;
+}

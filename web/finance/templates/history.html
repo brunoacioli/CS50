@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <table class="table table-striped">
+        <thead>
+            <th>Symbol</th>
+            <th>Shares</th>
+            <th>Price</th>
+            <th>Date</th>
+        </thead>
+        <tbody>
+            {% for history in hislist %}
+            <tr>
+                <td>{{history.symbol}}</td>
+                <td>{{history.shares}}</td>
+                <td>{{ "%0.2f" |format(history.price|float) }}</td>
+                <td>{{history.date}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

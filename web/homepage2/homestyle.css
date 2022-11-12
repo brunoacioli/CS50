@@ -1,0 +1,29 @@
+.header
+{
+    text-align: center;
+    font-size: 60px;
+}
+.space
+{
+    padding: 5px;
+}
+.dortmund
+{
+    background-image: url("dortmund.jpg");
+}
+.home
+{
+    background-image: url("paisagem3.jpg");
+}
+.letter
+{
+    color: white;
+}
+.avicii
+{
+    background-image: url("avicii.jpg");
+}
+.kygo
+{
+    background-image: url("kygo.jpg");
+}
